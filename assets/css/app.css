@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap');
+
+.alphabet_letter{
+	cursor: pointer;
+	}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eee;
+
+}
+   
+p {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;    
+}
+header p {
+    font-size: 23px;
+    
+}
+
+.callout {
+    color:#eee;
+}
+
+header:hover em  {
+    font-size: 28px;
+    background-color: #1361b9;
+    color: yellow; 
+    padding: 10px;
+}
+
+
+
+
+.container {
+    height: 40vh;
+}
+
+.hero-image{
+    align-self: auto;
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    border: 1px;
+    border-color: rgb(243, 243, 31);
+}
+
+.timeline-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+ 
+.timeline-item{
+    width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.timeline-content {
+    float: right;
+    padding: 40px 30px 10px 30px;
+	position: relative;
+	width: 45%;
+	border-radius: 4px;
+	background: #f5f5f5;
+	box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
+}
+
+.timeline-content2{
+    float: left;
+    padding: 40px 30px 10px 30px;
+	position: relative;
+	width: 45%;
+	border-radius: 4px;
+	background: #f5f5f5;
+	box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
+}
+.date {
+	right: auto;
+	left: 0;
+}
+
+/*Block divider */
+
+.block-divider {
+    width: 175px;
+    height: 2px;
+    border: 0;
+    background-color: #444;
+    margin-bottom: 40px;
+}
+
+.block-divider--blue {
+    background-color: blue;
+}
